@@ -8,7 +8,7 @@ import webbrowser
 import datetime
 
 # Gemini API Key setup
-genai.configure(api_key="AIzaSyAI2j7pIAhjxg3HTny5x4J9f7L4i4U0jGo")  # Replace with your API key
+genai.configure(api_key="Enter your own api key")  # Replace with your API key
 model = genai.GenerativeModel("gemini-pro")
 
 # Initialize Text-to-Speechhi
@@ -168,4 +168,4 @@ def run_assistant():
                     speak(f"Error: {str(e)}")
 
 if __name__ == "__main__":
-    run_assistant()
+    run_assistant(true)
